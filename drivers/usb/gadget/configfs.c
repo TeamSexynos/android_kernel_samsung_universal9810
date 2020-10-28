@@ -534,6 +534,7 @@ static int config_usb_cfg_link(
 	struct gadget_config_name *cn;
 #endif
 	int ret;
+	int i;
 
 	mutex_lock(&gi->lock);
 	/*
